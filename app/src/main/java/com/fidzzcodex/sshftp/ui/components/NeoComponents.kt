@@ -46,7 +46,7 @@ fun NeoButton(
     text: String,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
-    backgroundColor: Color = SSHFTPTheme.colors.primary,
+    backgroundColor: Color = Color(0xFF3366FF),
     textColor: Color = Color.White,
     enabled: Boolean = true,
     icon: ImageVector? = null,
@@ -109,7 +109,7 @@ fun NeoButton(
 @Composable
 fun NeoCard(
     modifier: Modifier = Modifier,
-    backgroundColor: Color = SSHFTPTheme.colors.surface,
+    backgroundColor: Color = Color(0xFFF5F5F5),
     content: @Composable ColumnScope.() -> Unit,
 ) {
     val colors = SSHFTPTheme.colors
@@ -340,7 +340,7 @@ fun NeoTabRow(
 
 // ─── LoadingSpinner ───────────────────────────────────────────────────────────
 @Composable
-fun NeoLoadingSpinner(color: Color = SSHFTPTheme.colors.primary) {
+fun NeoLoadingSpinner(color: Color = Color(0xFF3366FF)) {
     CircularProgressIndicator(
         modifier = Modifier.size(36.dp),
         color = color,
