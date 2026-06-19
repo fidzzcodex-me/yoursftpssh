@@ -10,6 +10,7 @@ import java.io.File
 import java.io.InputStream
 import java.io.OutputStream
 import java.util.Properties
+import java.util.Vector
 
 data class SSHConnectionState(
     val isConnected: Boolean = false,
