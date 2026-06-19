@@ -90,8 +90,8 @@ class SSHManager {
                             size           = attrs.size,
                             permissions    = attrs.permissionsString,
                             permissionsOctal = attrs.permissions.toString(8).takeLast(4),
-                            owner          = attrs.uidString,
-                            group          = attrs.gidString,
+                            owner          = attrs.uid.toString(),
+                            group          = attrs.gid.toString(),
                             modifiedTime   = attrs.mTime.toLong() * 1000L,
                         )
                     }
