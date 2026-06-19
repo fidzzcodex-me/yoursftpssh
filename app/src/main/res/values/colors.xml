@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#1A1A1A</color>
+    <color name="neo_black">#1A1A1A</color>
+    <color name="neo_white">#FFFFFF</color>
+    <color name="neo_blue">#3366FF</color>
+    <color name="neo_red">#FF3366</color>
+    <color name="neo_yellow">#FFCC00</color>
+    <color name="neo_green">#00CC66</color>
+    <color name="terminal_bg">#0D0D0D</color>
+    <color name="terminal_text">#00FF88</color>
+</resources>
